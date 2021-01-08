@@ -15,7 +15,7 @@ public class AppTest {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\I322911\\eclipse-workspace\\NewSeleniumDemo\\Driver\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         
-        driver.get("http://18.220.170.152:8888/");
+        driver.get("http://18.222.210.105:8888/");
         driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
         
         driver.findElement(By.className("v-button")).click();
