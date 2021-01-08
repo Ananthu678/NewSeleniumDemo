@@ -12,7 +12,7 @@ public class AppTest {
 	@Test
 	public static void main(String[] args) {
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\I322911\\eclipse-workspace\\NewSeleniumDemo\\Driver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "/home/ubuntu/selenium/chromedriver");
         WebDriver driver = new ChromeDriver();
         
         driver.get("http://18.222.210.105:8888/");
